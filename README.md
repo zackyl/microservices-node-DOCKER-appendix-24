@@ -1,4 +1,3 @@
-
 # section 24: [Appendix A]- Basics of Docker
 ### 542. Finished Code and Diagrams
 
@@ -636,6 +635,7 @@ docker kill <container id>
 docker exec -it <container id> <command>
 docker exec -it <container id> sh
 docker build . 
+docker build -t [dockerid]/[repo/projectname]:[version] .
 `docker run -it alpine sh`
 apk add --update redis
 docker commit -c 'CMD ["redis-server"]' b98e71325442 (not good practice)
